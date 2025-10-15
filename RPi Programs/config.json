@@ -1,0 +1,26 @@
+{
+  "firebase": {
+    "database_url": "https://your-project-id-default-rtdb.firebaseio.com"
+  },
+  "mqtt": {
+    "broker_ip": "192.168.254.111",
+    "port": 1883
+  },
+  "devices": {
+    "door_lock": {
+      "last_userid": null,
+      "status": "locked"
+    },
+    "room_control": {
+      "last_userid": null,
+      "temperature": null,
+      "humidity": null,
+      "light_mode": "off"
+    }
+  },
+  "allowed_uids": ["4625533D", "A1B2C3D4", "999888777"],
+  "web": {
+    "host": "0.0.0.0",
+    "port": 5000
+  }
+}
