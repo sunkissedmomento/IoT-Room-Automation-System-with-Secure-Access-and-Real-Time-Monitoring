@@ -116,9 +116,10 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install mosquitto mosquitto-clients python3-pip -y
 pip3 install paho-mqtt firebase-admin flask
 
-```
+
 
 **Enable Mosquitto:**
+```
 sudo systemctl enable mosquitto
 sudo systemctl start mosquitto
 
