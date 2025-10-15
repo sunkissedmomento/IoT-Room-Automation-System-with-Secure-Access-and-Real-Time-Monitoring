@@ -56,25 +56,25 @@ The project consists of **three ESP32 devices** and **one Raspberry Pi 5** actin
 ## 5. Firebase RTDB Schema
 ```
 {
-"devices": {
-"door_lock": {
-"device_id": "DL001",
-"status": "locked",
-"last_user": "A1B2C3D4"
-},
-"temperature_sensor": {
-"device_id": "TMP001",
-"temperature": 25.8,
-"humidity": 60.5,
-"last_user": "A1B2C3D4"
-},
-"light_control": {
-"device_id": "LC001",
-"status": "medium",
-"last_user": "A1B2C3D4"
-}
-},
-"allowed_uids": ["4625533D", "A1B2C3D4", "999888777"]
+  "devices": {
+    "door_lock": {
+    "device_id": "DL001",
+    "status": "locked",
+    "last_user": "A1B2C3D4"
+    },
+    "temperature_sensor": {
+      "device_id": "TMP001",
+      "temperature": 25.8,
+      "humidity": 60.5,
+      "last_user": "A1B2C3D4"
+    },
+    "light_control": {
+      "device_id": "LC001",
+      "status": "medium",
+      "last_user": "A1B2C3D4"
+    }
+  },
+  "allowed_uids": ["4625533D", "A1B2C3D4", "999888777"]
 } 
 ```
 text
