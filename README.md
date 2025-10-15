@@ -54,7 +54,7 @@ The project consists of **three ESP32 devices** and **one Raspberry Pi 5** actin
 ---
 
 ## 5. Firebase RTDB Schema
-
+```
 {
 "devices": {
 "door_lock": {
@@ -75,8 +75,8 @@ The project consists of **three ESP32 devices** and **one Raspberry Pi 5** actin
 }
 },
 "allowed_uids": ["4625533D", "A1B2C3D4", "999888777"]
-}
-
+} 
+```
 text
 
 ---
